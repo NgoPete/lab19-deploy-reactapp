@@ -1,0 +1,47 @@
+.searchModal {
+  background: white;
+  width: 110vh;
+  height: 180px;
+  position: relative;
+  left: 25%;
+  margin-bottom: 20px;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  top: 20px;
+  left: 20px;
+  width: 95%;
+  border-bottom: 2px solid teal;
+}
+
+.input {
+  font-size: 20px;
+  padding-bottom: 30px;
+  width: 600px;
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+}
+
+.btn_group {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: green;
+  cursor: pointer;
+  border-radius: 50%;
+}
